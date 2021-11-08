@@ -13,7 +13,7 @@ These can be deployed on an OpenMV Cam H7 (Plus) as follows:
 - Select models (cam and mlx) and save them on the OpenMV Cam. Note that v1- and v3-models may not work due to unsupported layers.
 - Create folders "cam" and "mlx" on OpenMV Cam
 
-The script currently logs the predictions of the deployed models. A next step would be to connect a suitable actuator.  
+The script currently logs the predictions of the deployed models. A next step would be to connect a suitable warning signal.  
 
 -  `openmv/datalogger.py` was used on a OpenMV Cam H7 to collect the dataset.
 -  `scripts/data-labeling.py` was used to label the collected dataset.
